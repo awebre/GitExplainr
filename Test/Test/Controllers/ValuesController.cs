@@ -41,5 +41,11 @@ namespace Test.Controllers
         public void Delete(int id)
         {
         }
+
+        [HttpGet]
+        public ActionResult<string> Test(string test)
+        {
+            return "TEST!";
+        }
     }
 }
